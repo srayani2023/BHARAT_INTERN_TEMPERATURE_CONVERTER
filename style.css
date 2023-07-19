@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 200;
+    padding: 100;
+    align-items: center;
+    font-family: cursive;
+    color: rgb(14, 0, 0);
+  }
+  body 
+  {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-simple-atmospheric-blue-temperature-needle-illustration-background-image_279280.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+  }
+  .wrapper
+  {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    max-width: auto;
+    width: auto;
+    padding: initial;
+    border-radius: unset;
+    box-shadow: rgb(107, 3, 26);
+  }
+  .wrapper h1{
+    color:rgb(65, 0, 38);
+    display: grid;
+    text-shadow: 2px 2px 3px pink;
+  }
+  .wrapper .input-box{
+    padding-left: 150px;
+  }
+  .wrapper .icon{
+    padding-left: 240px ;
+  }
+  .wrapper .input-box h2
+  {
+    text-shadow: 2px 2px 3px rgb(239, 247, 126);
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(6, 37, 37);
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
